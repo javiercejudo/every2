@@ -13,7 +13,7 @@ Like `Array.prototype.every` but for every 2-tuple
 ## Usage
 
 ```js
-var everyTuple = require('every-n');
+var every2 = require('every2');
 
 every2([1, 5, 10], fixtures.isAscendingPair); // => true
 every2([8, 5, 10], fixtures.isAscendingPair); // => false
