@@ -6,8 +6,8 @@
  * Tests whether every 2-tuple in the array pass the test
  * implemented by the provided function.
  *
- * @param  {Array} array The array to iterate over
  * @param  {Function} callback The function to call with every 2-tuple
+ * @param  {Array} array The array to iterate over
  * @param  {Boolean} thisArg Value to use as this when executing callback
  *
  * @return {Boolean}
