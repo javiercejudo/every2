@@ -4,7 +4,7 @@
 [![Coverage Status](https://coveralls.io/repos/javiercejudo/every2/badge.svg?branch=master)](https://coveralls.io/r/javiercejudo/every2?branch=master)
 [![Code Climate](https://codeclimate.com/github/javiercejudo/every2/badges/gpa.svg)](https://codeclimate.com/github/javiercejudo/every2)
 
-Like `Array.prototype.every` but for every 2-tuple
+Like [`Array.prototype.every`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/every) but for every 2-tuple
 
 ## Install
 
