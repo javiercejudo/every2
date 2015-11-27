@@ -28,6 +28,7 @@ function isFibonacciTripleWith2(a, b, index, array) {
 }
 
 function isSqrt(a, b) {
+  /*jshint -W040 */
   return this.sqrt(a) === b;
 }
 

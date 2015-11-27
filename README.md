@@ -15,8 +15,8 @@ Like [`Array.prototype.every`](https://developer.mozilla.org/en/docs/Web/JavaScr
 ```js
 var every2 = require('every2');
 
-every2([1, 5, 10], fixtures.isAscendingPair); // => true
-every2([8, 5, 10], fixtures.isAscendingPair); // => false
+every2(fixtures.isAscendingPair, [1, 5, 10]); // => true
+every2(fixtures.isAscendingPair, [8, 5, 10]); // => false
 ```
 
 Please note the tuples are passed to the callback as individual arguments, not as an array.

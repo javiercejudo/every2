@@ -12,15 +12,14 @@
  *
  * @return {Boolean}
  */
-module.exports = function every2(array, callback, thisArg) {
+module.exports = function every2(callback, array, thisArg) {
   if(array.length < 2) {
     return true;
   }
 
   var length = array.length;
-  var index;
 
-  for (index = 1; index < length; index += 1) {
+  for (var index = 1; index < length; index += 1) {
     if (!callback.call(thisArg, array[index - 1], array[index], index, array)) {
       return false;
     }
