@@ -25,9 +25,8 @@ describe('every2', function() {
   });
 
   it('should execute the callback with the provided thisArg as this', function() {
-    (function() {
-      every2(fixtures.isSqrt, [9, 3]);
-    }).should.throw();
+    every2.bind(undefined, fixtures.isSqrt, [9, 3])
+      .should.throw();
 
     every2(fixtures.isSqrt, [9, 3], Math).should.be.exactly(true);
 
