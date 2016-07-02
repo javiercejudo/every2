@@ -13,7 +13,7 @@
  * @return {Boolean}
  */
 module.exports = function every2(callback, array, thisArg) {
-  if(array.length < 2) {
+  if (array.length < 2) {
     return true;
   }
 
